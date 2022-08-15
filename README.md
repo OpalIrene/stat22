@@ -1,4 +1,4 @@
-# Statistics for Data Science
+# Econ 5023: Statistics for Data Science 
 
 
 |         |                |                                                                                                                                                                                                    |            | 
