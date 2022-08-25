@@ -80,8 +80,14 @@ read_csv("# A comment I want to skip
   1,2,3", comment = "#")
 ```
 
+## Type 5: Excel files
 
+```{r}
+library(readxl)
 
+read_excel("examples/Kids2.xlsx")
+
+```
   
 # Output Data
 
