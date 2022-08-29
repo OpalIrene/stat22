@@ -1,0 +1,19 @@
+---
+title: "Tutorial on Github"
+format: html
+editor: visual
+---
+
+1. log into your github account
+
+2.  Fork my github page ![](https://cdn.mathpix.com/snip/images/AyR5Ag0kwNGH6TfOHf6q-zxi9JbgdXtRi9r7gr_dFLk.original.fullsize.png)
+
+
+
+3. click code
+
+![](https://cdn.mathpix.com/snip/images/XHa6c_GykJf92GcViZmQFwQPiDxyGQyTaAzifkDWcbQ.original.fullsize.png)
+
+4. Rstudio, click File, click New Project, Click Version Control, click Git, copy and paste. 
+
+5. Done!
