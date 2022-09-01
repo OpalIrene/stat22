@@ -1,19 +1,33 @@
 ---
-title: "Tutorial on Github"
+title: "Tutorial on Setting up Github access on your own computer"
 format: html
 editor: visual
 ---
 
-1. log into your github account
+1.  log into your github account
 
-2.  Fork my github page ![](https://cdn.mathpix.com/snip/images/AyR5Ag0kwNGH6TfOHf6q-zxi9JbgdXtRi9r7gr_dFLk.original.fullsize.png)
+2.  Navigate to my Github page, for example, https://github.com/lewangecon/stat22 (or whatever the course page link is).
 
+3.  Click **Fork** ![](https://cdn.mathpix.com/snip/images/AyR5Ag0kwNGH6TfOHf6q-zxi9JbgdXtRi9r7gr_dFLk.original.fullsize.png)
 
-
-3. click code
+4.  Click **Code** and copy and paste the HTTPS url.
 
 ![](https://cdn.mathpix.com/snip/images/XHa6c_GykJf92GcViZmQFwQPiDxyGQyTaAzifkDWcbQ.original.fullsize.png)
 
-4. Rstudio, click File, click New Project, Click Version Control, click Git, copy and paste. 
+4.  Rstudio, click **File** **\>** **New Project**,
 
-5. Done!
+5.  Select **Version Control**
+
+    ![](https://cdn.mathpix.com/snip/images/dQ-OKac0n5LkNAK1yUC1tQwXedT9sqSODhboZamHQQA.original.fullsize.png)
+
+6.  Click **Git**
+
+    ![](https://cdn.mathpix.com/snip/images/49L6msv3vNIEhQxwQN76Vz2np6nVlY1W18x1XnqAQDY.original.fullsize.png)
+
+7.  Copy and paste the HTTPS url in the prompt **Repository URL**
+
+    ![](https://cdn.mathpix.com/snip/images/Df0KpClg8xNU71lAULYrU_J68iALSZFt8eX85Ad4UZ4.original.fullsize.png)
+
+8.  Create a new project, and Done!
+
+    ![](https://cdn.mathpix.com/snip/images/M-z5zxcf3qwOTtprnIP6xf4XxxG9prgn8-Qk3m_R8bg.original.fullsize.png)

@@ -49,4 +49,4 @@ If you do not have a [GitHub](https://github.com) account, please create one. Gi
 
 ### Setting up Github access to course material on your own computer
 
-[Here](lecture/tutorial_github.html) is a step-by-step tutorial. 
+[Here](../lecture/tutorial_github.html) is a step-by-step tutorial. 
