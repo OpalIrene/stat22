@@ -60,7 +60,13 @@ kids
   major <- read.dta("examples/major.dta")    
 ```
   
-  
+## Type 5: Excel Files
+
+```{r}
+library(readxl)
+read_excel("examples/Kids2.xlsx")
+```
+
   
 # Output Data
 
@@ -105,6 +111,19 @@ Or, Save to a Stata file and export data frame to Stata binary format
   write.dta(major, "examples/major.dta")
 
 ```
+
+# Import Google Sheet Data
+
+```{r}
+library(googlesheets4)
+
+# We are going to access a publicly available file
+# that does not require a google log in
+gs4_deauth()
+
+read_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+```
+
 
 # Quantmod package from Yahoo
 
