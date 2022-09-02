@@ -46,3 +46,7 @@ Install [Git](https://git-scm.com/downloads) on your operating system. Git shoul
 ### Github
 
 If you do not have a [GitHub](https://github.com) account, please create one. GitHub accounts are free.
+
+### Setting up Github access to course material on your own computer
+
+[Here](../lecture/tutorial_github.html) is a step-by-step tutorial. To view this file. Got to [https://raw.githack.com/](https://raw.githack.com/) and copy and paste the link in the prompt **Use this URL in production**. 
