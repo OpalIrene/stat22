@@ -136,6 +136,7 @@ l <- list(iris = iris, mtcars = mtcars)
 openxlsx::write.xlsx(l, file = "examples/all_data.xlsx")
 ```
 
+
 # Quantmod package from Yahoo
 
 ```{r}

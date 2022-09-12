@@ -124,6 +124,21 @@ gs4_deauth()
 read_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
 ```
 
+# Read PDF file
+```{r}
+pacman::p_load(pdftools, tidyverse)
+
+pdf_file <- "https://github.com/ropensci/tabulizer/raw/master/inst/examples/data.pdf"
+
+txt <- pdf_text(pdf_file)
+
+# first page
+cat(txt[1])
+
+# All textboxes on page 1
+pdf_data(pdf_file)[[1]]
+```
+
 
 # Quantmod package from Yahoo
 
