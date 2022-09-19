@@ -60,7 +60,13 @@ kids
   major <- read.dta("examples/major.dta")    
 ```
   
-  
+## Type 5: Excel Files
+
+```{r}
+library(readxl)
+read_excel("examples/Kids2.xlsx")
+```
+
   
 # Output Data
 
@@ -105,6 +111,34 @@ Or, Save to a Stata file and export data frame to Stata binary format
   write.dta(major, "examples/major.dta")
 
 ```
+
+# Import Google Sheet Data
+
+```{r}
+library(googlesheets4)
+
+# We are going to access a publicly available file
+# that does not require a google log in
+gs4_deauth()
+
+read_sheet("https://docs.google.com/spreadsheets/d/1U6Cf_qEOhiR9AZqTqS3mbMF3zt2db48ZP5v3rkrAEJY/edit#gid=780868077")
+```
+
+# Read PDF file
+```{r}
+pacman::p_load(pdftools, tidyverse)
+
+pdf_file <- "https://github.com/ropensci/tabulizer/raw/master/inst/examples/data.pdf"
+
+txt <- pdf_text(pdf_file)
+
+# first page
+cat(txt[1])
+
+# All textboxes on page 1
+pdf_data(pdf_file)[[1]]
+```
+
 
 # Quantmod package from Yahoo
 

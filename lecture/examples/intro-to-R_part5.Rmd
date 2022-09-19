@@ -128,6 +128,15 @@ Or, Save to a Stata file and export data frame to Stata binary format
   write_dta(major, "examples/major.dta") 
 ```
 
+
+We can also export it as an excel file
+
+```{r}
+l <- list(iris = iris, mtcars = mtcars)
+openxlsx::write.xlsx(l, file = "examples/all_data.xlsx")
+```
+
+
 # Quantmod package from Yahoo
 
 ```{r}
